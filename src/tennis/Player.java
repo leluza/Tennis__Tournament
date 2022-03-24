@@ -1,3 +1,5 @@
+package tennis;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +21,7 @@ public class Player {
         this.name=name;
         this.set_quantity=set_quantity;
         this.success_rate=success_rate;
-        //this.points =  new ArrayList< List< List<Score> > >();
+        //this.points =  new ArrayList< List< List<tennis.Score> > >();
         this.points =  new ArrayList<>();
         this.last_match=0;
         this.last_game=0;
@@ -30,7 +32,7 @@ public class Player {
     public void addPoints(Score sc){}
 
     public Score getPoint(){
-        return new Score();
+        return Score.ZERO;
     }
 
     public List<Score> getGame(){

@@ -1,11 +1,12 @@
+package tennis;
 
 public enum Score {
     ZERO,
     FIFTEEN,
     THIRTY,
-    FOURTY_FOUR,
+    FORTY_FIVE,
     GAME,
     ADVANTAGE,
-    DISADVANTAGE
+    DISADVANTAGE;
 
 }
